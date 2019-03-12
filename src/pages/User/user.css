@@ -1,0 +1,28 @@
+.userBox {
+  padding: 30px;
+}
+.userBox .contentBox {
+  box-shadow: 0 0 15px #999;
+  border-radius: 7px;
+  padding: 10px;
+}
+.userBox .contentBox .avatarUrl {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  position: relative;
+}
+.userBox .contentBox .avatarUrl img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+.userBox .contentBox .avatarUrl::before {
+  display: inline-block;
+  margin-right: 4px;
+  content: "*";
+  font-family: SimSun;
+  line-height: 1;
+  font-size: 14px;
+  color: #f5222d;
+}

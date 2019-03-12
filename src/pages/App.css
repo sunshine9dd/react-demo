@@ -1,0 +1,21 @@
+#appContent {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 48px 0 0 140px;
+}
+#loadingBox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+}
+#loadingBox .ant-spin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -12.5px;
+}

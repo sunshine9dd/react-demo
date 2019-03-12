@@ -1,0 +1,49 @@
+.bannerBox {
+    padding: 30px;
+}
+.bannerBox .contentBox {
+    box-shadow: 0 0 15px #999;
+    border-radius: 7px;
+    padding: 0 10px;
+}
+.bannerBox .contentBox .titleBox {
+    padding: 20px 0;
+}
+.bannerBox .contentBox .titleBox .add {
+    float: right;
+}
+.bannerBox .contentBox .titleBox .searchInput{
+    display: inline-block;
+    width: 300px;
+    margin: 0 20px;
+}
+.bannerBox .contentBox .bannerCover {
+    width: 100px;
+    height: auto;
+}
+.bannerForm .newsTitle {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.bannerForm .newsTitle::before {
+    display: inline-block;
+    margin-right: 4px;
+    content: "*";
+    font-family: SimSun;
+    line-height: 1;
+    font-size: 14px;
+    color: #f5222d;
+}
+.bannerForm .uploadBox {
+    margin-bottom: 24px;
+}
+.bannerForm .uploadBox i.anticon-plus {
+    font-size: 32px;
+    padding: 30px;
+    border: 1px solid #d9d9d9;
+}
+.bannerForm .uploadBox img {
+    max-width: 200px;
+}

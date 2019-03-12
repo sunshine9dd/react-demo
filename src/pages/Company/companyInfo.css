@@ -1,0 +1,11 @@
+.companyInfo {
+  overflow: hidden;
+  min-height: 90vh;
+  padding: 20px;
+}
+.companyInfo .contentBox {
+  height: auto;
+}
+.inputNum {
+  width: 100%;
+}

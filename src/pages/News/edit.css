@@ -1,0 +1,41 @@
+.newsEditBox {
+  padding: 30px;
+}
+.newsEditBox .contentBox {
+  box-shadow: 0 0 15px #999;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+.newsEditBox .contentBox .newsTitle {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.newsEditBox .contentBox .newsTitle::before {
+  display: inline-block;
+  margin-right: 4px;
+  content: "*";
+  font-family: SimSun;
+  line-height: 1;
+  font-size: 14px;
+  color: #f5222d;
+}
+.newsEditBox .contentBox .uploadBox {
+  margin-bottom: 24px;
+}
+.newsEditBox .contentBox .uploadBox i.anticon-plus {
+  font-size: 32px;
+  padding: 30px;
+  border: 1px solid #d9d9d9;
+}
+.newsEditBox .contentBox .uploadBox img {
+  max-width: 300px;
+}
+.newsEditBox .contentBox .submitBtn {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.newsEditBox .contentBox .goBack {
+  margin: 24px 0 10px 24px;
+}

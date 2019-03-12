@@ -1,0 +1,11 @@
+#leftNav {
+  position: fixed;
+  width: 140px;
+  height: 100%;
+  left: 0;
+  top: 48px;
+  z-index: 9;
+}
+#leftNav ul.ant-menu {
+  height: 100%;
+}

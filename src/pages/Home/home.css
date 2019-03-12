@@ -1,0 +1,15 @@
+.homeBox {
+  padding: 30px;
+}
+.homeBox .contentBox {
+  box-shadow: 0 0 15px #999;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+.homeBox .contentBox .titleBox {
+  text-align: right;
+  padding: 20px 0;
+}
+.inputNum {
+  width: 100%;
+}

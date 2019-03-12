@@ -1,0 +1,44 @@
+.memberBox {
+  padding: 30px;
+}
+.memberBox .contentBox {
+  box-shadow: 0 0 15px #999;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+.memberBox .contentBox .titleBox {
+  padding: 20px 0;
+}
+.memberBox .contentBox .titleBox .ant-btn {
+  float: right;
+}
+.memberBox .contentBox .memberCover {
+  width: 100px;
+  height: auto;
+}
+.memberForm .newsTitle {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.memberForm .newsTitle::before {
+  display: inline-block;
+  margin-right: 4px;
+  content: "*";
+  font-family: SimSun;
+  line-height: 1;
+  font-size: 14px;
+  color: #f5222d;
+}
+.memberForm .uploadBox {
+  margin-bottom: 24px;
+}
+.memberForm .uploadBox i.anticon-plus {
+  font-size: 32px;
+  padding: 30px;
+  border: 1px solid #d9d9d9;
+}
+.memberForm .uploadBox img {
+  max-width: 200px;
+}

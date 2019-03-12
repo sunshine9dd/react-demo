@@ -1,0 +1,25 @@
+.newsBox {
+  padding: 30px;
+}
+.newsBox .contentBox {
+  box-shadow: 0 0 15px #999;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+.newsBox .contentBox .titleBox {
+  text-align: right;
+  padding: 20px 0;
+}
+.newsBox .contentBox .newsCover {
+  width: 100px;
+  height: auto;
+}
+.newsBox .contentBox .ant-table-wrapper tr > td:nth-of-type(2) {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.inputNum {
+  width: 100%;
+}
